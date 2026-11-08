@@ -1,0 +1,12 @@
+# 全部按原字节存储，不做换行符转换
+# Keil 工程文件对 CRLF 敏感，保持原样最安全
+* -text
+
+# 明确的二进制类型
+*.lib binary
+*.a   binary
+*.hex binary
+*.bin binary
+*.png binary
+*.jpg binary
+*.pdf binary

@@ -1,0 +1,31 @@
+# ---------- Keil MDK 编译产物（不需要进仓库，几百 MB）----------
+Objects/
+Listings/
+DebugConfig/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.sct
+*.dep
+*.iex
+*.htm
+*.build_log.htm
+
+# ---------- Keil 个人界面/调试配置（含本机绝对路径）----------
+*.uvguix.*
+JLinkLog.txt
+JLinkSettings.ini
+*.scvd
+*.bak
+*.orig
+*~
+
+# ---------- 工作目录私有数据 ----------
+.workbuddy/
+.tmp_*/
